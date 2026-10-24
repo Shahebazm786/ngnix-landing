@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Clone - Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <div class="header">
+        <nav>
+            <h1 class="logo">NETFLIX</h1>
+            <div>
+                <select class="language-btn">
+                    <option value="en">English</option>
+                </select>
+                <button class="signin-btn">Sign In</button>
+            </div>
+        </nav>
+        
+        <div class="header-content">
+            <h1>Unlimited movies, TV shows, and more</h1>
+            <h3>Watch anywhere. Cancel anytime.</h3>
+            <p>Ready to watch? Enter your email to create or restart your membership.</p>
+            <form class="email-signup">
+                <input type="email" placeholder="Email address" required>
+                <button type="submit">Get Started ></button>
+            </form>
+        </div>
+    </div>
+    
+    <!-- Feature Section 1 -->
+    <div class="features">
+        <div class="row">
+            <div class="text-col">
+                <h2>Enjoy on your TV</h2>
+                <p>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.</p>
+            </div>
+            <div class="img-col">
+                <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png" alt="TV">
+            </div>
+        </div>
+    </div>
+
+    <!-- Feature Section 2 -->
+    <div class="features">
+        <div class="row" style="flex-direction: row-reverse;">
+            <div class="text-col">
+                <h2>Download your shows to watch offline</h2>
+                <p>Save your favorites easily and always have something to watch.</p>
+            </div>
+            <div class="img-col">
+                <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg" alt="Mobile">
+            </div>
+        </div>
+    </div>
+
+    <!-- FAQ Section -->
+    <div class="faq">
+        <h2>Frequently Asked Questions</h2>
+        <ul class="accordion">
+            <li>
+                <div class="question">What is Netflix? <span>+</span></div>
+                <div class="answer">
+                    <p>Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices.</p>
+                </div>
+            </li>
+            <li>
+                <div class="question">How much does Netflix cost? <span>+</span></div>
+                <div class="answer">
+                    <p>Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one fixed monthly fee.</p>
+                </div>
+            </li>
+            <li>
+                <div class="question">Where can I watch? <span>+</span></div>
+                <div class="answer">
+                    <p>Watch anywhere, anytime. Sign in with your Netflix account to watch instantly on the web at netflix.com from your personal computer or on any internet-connected device.</p>
+                </div>
+            </li>
+        </ul>
+        <br>
+        <p style="font-size: 1.2rem; color: #fff;">Ready to watch? Enter your email to create or restart your membership.</p>
+        <form class="email-signup" style="margin-top: 15px;">
+            <input type="email" placeholder="Email address" required>
+            <button type="submit">Get Started ></button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
